@@ -1,0 +1,17 @@
+.swiper-wrapper {
+  animation: slide 10s linear infinite;
+  white-space: nowrap;
+}
+
+.swiper-wrapper:hover {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
